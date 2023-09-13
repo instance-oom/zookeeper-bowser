@@ -1,0 +1,35 @@
+{
+  "name": "zookeeper-bowser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:react-ui": "vite",
+    "build:react-ui": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "build": {
+    "appId": "instance-oom.zookeeper-bowser"
+  },
+  "dependencies": {
+    "@instance-oom/node-zookeeper-client-async": "^0.0.2",
+    "antd": "^5.9.0",
+    "glob": "^10.3.4",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.43",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.4",
+    "electron-builder": "^24.6.4",
+    "string-width": "3.x",
+    "strip-ansi": "3.x",
+    "vite": "^4.4.9",
+    "wrap-ansi": "3.x"
+  }
+}
